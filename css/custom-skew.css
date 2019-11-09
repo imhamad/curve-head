@@ -27,7 +27,7 @@ section:before{
     bottom: 0;
     width: 100%;
     background-color: #000;
-    border-radius: 0 0 50% 50%/25% 0 0 50%;
+    border-radius: 0 0 50% 50%;
     transform: scaleX(1.6);
     background: linear-gradient(45deg, #ff0081, #F04C24);
 
@@ -46,10 +46,14 @@ section:before{
     background-image: url("../assets/img/hd-pic.png");
     background-position: center;
     background-size: 100% 100%;
-    height: 50vh;
+    height: 80vh;
     background-attachment: fixed;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    width: 100%;
 }
 .bg p{
-    margin: auto auto;
-    width: 500px;
+    margin: 0 auto;
+    max-width: 50%;
 }
