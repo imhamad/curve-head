@@ -12,7 +12,11 @@ section{
     display: flex;
     align-items: center;
     position: relative;
+<<<<<<< HEAD
+    
+=======
     overflow: hidden;
+>>>>>>> e5135d3ebcac590fc0f69f1ae09d287a72917045
 }
 section .content{
     position: relative;
